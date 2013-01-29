@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://coburnicus.github.com/sitemap.xml 
