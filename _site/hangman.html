@@ -1,44 +1,22 @@
-
-<!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-
+<html>
 <head>
-	<meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Adventures in Jeffland</title>
-
-  
-  <link rel="stylesheet" href="stylesheets/app.css" />
-  
-
-  <script src="javascripts/vendor/custom.modernizr.js"></script>
+<style type="text/css">
+#alpha span:hover {
+cursor: pointer;
+background-color: #ccc;
+}
+#alpha span {
+margin: 2px;
+}
+</style>
 
 </head>
 <body>
-
-	<div class="row">
-		<div class="large-12 columns">
-			<h2>Adventures in Jeffland</h2>
-			
-			<hr />
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="large-8 columns">
-			
-<p>This is a test</p>
-			
-		</div>
-
-		<div class="large-4 columns">
-			<h4>About Me</h4>
-			<p>Technically, I'm a designer developer. Actually, I just hack together stuff developed and designed by other people until it works for me. I do this for the Institute for Community Inclusion in Boston. 
-		</div>
-	</div>
-
-  <script>
+<div id="hangman-jquery">
+<div id="word"></div>
+<div id="alpha"></div>
+</div>
+<script>
   document.write('<script src=' +
   ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
   '.js><\/script>')
@@ -78,5 +56,20 @@
   <script>
     $(document).foundation();
   </script>
-</body>
-</html>
+<script type="text/javascript">
+var alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var word = 'HANGMAN';
+
+$.each(alpha.split(''), function(i, val){
+$('#alpha').append($('<span class="guess">' + val + '</span>'));
+});
+$.each(word.split(''), function(i, val){
+$('#word').append($('<span class="letter" letter="' + val +'">_</span>'));
+});
+$('.guess').click(function(){
+var count = $('#word [letter='+$(this).text()+']').each(function(){ $(this).text($(this).attr('letter'));}).length;
+$(this).removeClass('guess').css('color' , (count > 0 ? 'green' : 'red')).unbind('click');
+});
+
+</script>
+</body></html>
