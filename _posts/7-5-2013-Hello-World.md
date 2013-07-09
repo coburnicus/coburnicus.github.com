@@ -1,5 +1,5 @@
 ---
-title: Why I am I Writing This
+title: Fuck it, we'll build a blog
 layout: default
 ---
  I don't really know what I'd do to make money if I couldn't build websites. I have a degree in journalism, but it turns out I'm kind of a shitty writer (with the exception of this entry, which is beautiful and elegant prose). I started building in 1998ish, when I was a student/intern in London. A swell fella named Matt Zandstra was super nice, and gave me a paid internship at Corrosive Web Design when the only way I knew how to build a web page was with FrontPage or Dreamweaver. He promptly showed me where the text editor was and I've been hand crafting my code ever since. 
