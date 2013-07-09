@@ -1,3 +1,6 @@
 title: Adventures in Jeffland
 pygments: true
 markdown: redcarpet
+name: Adventures in Jeffland
+description: Prose about building things with computers. Sometimes done while tying one on.
+url: http://coburnicus.com
