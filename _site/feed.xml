@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title></title>
-		<description></description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<title>Adventures in Jeffland</title>
+		<description>Prose about building things with computers. Sometimes done while tying one on.</description>
+		<link>http://coburnicus.com</link>
+		<atom:link href="http://coburnicus.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>I Get It</title>
+				<description>&lt;p&gt;&lt;em&gt;Disclaimer: I&amp;#39;ve lived and worked in Boston for 13 years&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve read a &lt;a href=&quot;http://www.newyorker.com/online/blogs/newsdesk/2013/07/dzhokhar-tsarnaev-rolling-stone-cover-controversy.html&quot;&gt;few&lt;/a&gt; &lt;a href=&quot;http://dave.smallpict.com/2013/07/17/theTerroristRockStar&quot;&gt;different&lt;/a&gt; &lt;a href=&quot;http://www.slate.com/blogs/browbeat/2013/07/17/boston_bomber_rolling_stone_cover_with_dzokhar_tsarnaev_is_good_journalism.html&quot;&gt;articles&lt;/a&gt; defending the Rolling Stone cover (and to be clear we are just talking about the cover, the article was really well written), and the gist of most is that RS is brilliantly confronting us with the fact this is an handsome, likable kid who did these terrible acts. No shit. We were confronted with this awful dichotomy months ago. Anybody who has followed the story with any interest has already been struck by and read articles showing us how well liked this kid was.&lt;/p&gt;
+
+&lt;p&gt;Intellectually I understand the RS cover, and it still pisses me off. It pisses me off because it is one thing to put a photo of a murderer on your cover. It becomes another thing to airbrush the photo, drop-shadow the iconic logo over it, and literally put his face and name alongside Jay-Z and other celebrities. Rolling Stone says they did it this way for their readership but it is precisely because of their readership (teens and young adults) that they should not have run the cover in this manner.&lt;/p&gt;
+
+&lt;p&gt;And for what reason? Nothing has changed in the national narrative, we already new this was a complicated kid. The only thing that is different now is the Rolling Stone has inserted its name and brand into this discussion, and now we are talking about them. And at what cost? More raw nerves have be tweaked and more anger and vitriol has been thrown into a scene that already has too much of both. To me it seems Rolling Stone made the decision to run this cover not for the benefit of its readership, but for the benefit of itself. I&amp;#39;ve had 24 hours to calm down and get over my &amp;quot;outrage&amp;quot; yet I still think my original reaction is right: Rolling Stone, seriously, get fucked.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 18 Jul 2013 00:00:00 -0400</pubDate>
+				<link>http://coburnicus.com/2013/07/18/I-get-it.html</link>
+				<guid isPermaLink="true">http://coburnicus.com/2013/07/18/I-get-it.html</guid>
+			</item>
 		
 			<item>
 				<title>Fuck it, we'll build a blog</title>
@@ -30,8 +45,8 @@
 &lt;p&gt;As you were.&lt;/p&gt;
 </description>
 				<pubDate>Tue, 07 May 2013 00:00:00 -0400</pubDate>
-				<link>/2013/05/07/Hello-World.html</link>
-				<guid isPermaLink="true">/2013/05/07/Hello-World.html</guid>
+				<link>http://coburnicus.com/2013/05/07/Hello-World.html</link>
+				<guid isPermaLink="true">http://coburnicus.com/2013/05/07/Hello-World.html</guid>
 			</item>
 		
 	</channel>
